@@ -1,0 +1,7 @@
+create database if not exists foods;
+drop table if exists foods;
+create table foods (
+food_id INT not null auto-increment,
+name varchar (50),
+primary key (food_id)
+);
